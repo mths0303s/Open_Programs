@@ -7,7 +7,15 @@ sleep(0.5)
 pyautogui.write('vscode')
 sleep(0.5)
 pyautogui.press('enter')
-sleep(0.5)
+sleep(1)
+
+#Por a musica pra tocar
+pyautogui.press('win')
+pyautogui.write('spotify')
+pyautogui.press('enter')
+sleep(5)
+pyautogui.click(800, 795, duration=1)
+sleep(1)
 
 #Abrir o WhatsAPP
 pyautogui.press('win')
@@ -24,9 +32,9 @@ sleep(0.5)
 pyautogui.write('chrome')
 sleep(0.5)
 pyautogui.click(170,810, duration=0.3)
-sleep(0.5)
+sleep(3)
 pyautogui.hotkey('ctrl', 'shift', 't')
-sleep(0.5)
+sleep(5)
 
 #Fechar o Chrome Vazio
 pyautogui.hotkey('alt', 'tab')
